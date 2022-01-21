@@ -48,10 +48,10 @@ function App() {
             }
           })
         })
-        // console.log('Estas tarjetas son iguales')
+        // console.log('stas tarjetas son iguales')
         resertTurn()
       } else {
-        // console.log('Estas tarjetas no son iguales')
+        // console.log('estas tarjetas no son iguales')
        setTimeout(() => resertTurn(), 1000) 
       }
     }
@@ -72,7 +72,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Magic Nova</h1>
+      <h1>Tecno Nova</h1>
       <button onClick={shuffleCards}>New Game</button>
 
       <div className="card-grid">
